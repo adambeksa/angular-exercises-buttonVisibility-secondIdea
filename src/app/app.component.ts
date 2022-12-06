@@ -16,7 +16,7 @@ export class AppComponent {
     this.setAddToCartVisiblity();
   }
 
-  //Utworzyłem poniższą funkcję ponieważ nie wiedziałem
+  //Utworzyłem poniższą metodę ponieważ nie wiedziałem
   //jak ustawić wartość domyślną Observable<boolean>
   setAddToCartVisiblity(): void {
     this.buttonVisibility$ = of(true);
