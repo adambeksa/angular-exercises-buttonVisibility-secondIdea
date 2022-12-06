@@ -1,0 +1,9 @@
+<heading-coponent></heading-coponent>
+
+<button
+  class="add-to-cart-button"
+  (click)="addToCart()"
+  [disabled]="!(buttonVisibility$ | async)"
+>
+  Do koszyka
+</button>
